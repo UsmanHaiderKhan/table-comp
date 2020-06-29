@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Table from './Components/Table-Components/table.jsx';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode> {
+    <Table />
+  }
   </React.StrictMode>,
   document.getElementById('root')
 );
